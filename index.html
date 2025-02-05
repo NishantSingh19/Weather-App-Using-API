@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="cloudy.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <input id="input" type="text" placeholder="Enter City name" required spellcheck="true"/>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="details">
+          <p id="windSpeed"><i class="fa-solid fa-wind"></i>00.00 Km/h<span>Wind Speed</span></p>
+          <p id="humidity"><i class="fa-solid fa-droplet"></i>00%<span>Humidity</span></p>
+        </div>
+        <div class="imgContainer">
+          <img id="img" src="sun.png" alt="img" />
+          <p id="description">Sunny</p>
+        </div>
+        <div class="info">
+          <p id="location"><i class="fa-solid fa-location-dot"></i>Location</p>
+          <p id="temperature"><i class="fa-solid fa-temperature-half"></i></i>Temp</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
